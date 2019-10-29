@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  margin: 0px 70px;
+  padding: 65px 15px 45px 15px;
+  background-color: $font-header;
+}
+h3 {
+  font-size: 18px;
+  color: $white;
+}
+ul {
+  padding: 0;
+}
+li {
+  font-family: "OpenSans", sans-serif;
+  font-size: 15px;
+  color: $grey-dark;
+  list-style-type: none;
+  padding: 8px 0;
+}
+a {
+  font-family: "OpenSans", sans-serif;
+  font-size: 15px;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.link--yellow {
+  color: $color-yellow;
+}
+.link--yellow:hover {
+  color: $white;
+}
+
+.link--grey {
+  color: $grey-dark;
+  text-decoration: none;
+}
+.link--grey:hover {
+  color: $color-yellow;
+  text-decoration: underline;
+}
+
+.footer__column {
+  width: 25%;
+  padding: 15px;
+}
