@@ -14,7 +14,7 @@ function App() {
         <Header headerName="ewelina" />
       </div>
       <div>
-        <Footer headerName=
+        <Footer />
       </div>
     </div>
   );

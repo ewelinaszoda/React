@@ -1,0 +1,44 @@
+.aside,
+.header__wrapper {
+  display: -webkit-box;
+  display: flex;
+}
+.aside {
+  width: 70px;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin-bottom: 0;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.aside__text {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  width: 250px;
+  height: 200px;
+  font-size: 16px;
+  color: #777;
+}
+.aside__social__icon {
+  height: 18px;
+  display: block;
+  margin: 16px auto;
+  cursor: pointer;
+}
+.aside__social__icon:hover circle,
+.aside__social__icon:hover path {
+  fill: #d9b256;
+}
+.aside__social__icon circle,
+.aside__social__icon path {
+  -webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  fill: #777;
+}

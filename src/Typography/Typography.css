@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat-Regular.woff2) format("woff2"),
+    url(/fonts/Montserrat-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/fonts/Montserrat-Bold.woff2) format("woff2"),
+    url(/fonts/Montserrat-Bold.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(/fonts/OpenSans-Light.woff2) format("woff2"),
+    url(/fonts/OpenSans-Light.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lora;
+  src: url(/fonts/Lora-Italic.woff) format("woff2"),
+    url(/fonts/Lora-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(/fonts/PlayfairDisplay-Italic.woff2) format("woff2"),
+    url(/fonts/PlayfairDisplay-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-family: Montserrat-Bold;
+  color: #fff;
+  font-size: 62px;
+}
+h2 {
+  color: #d9b256;
+  font-size: 45px;
+}
+h2,
+h3 {
+  font-family: Montserrat, sans-serif;
+}
+h3 {
+  color: #242424;
+  font-size: 35px;
+  margin: 0 0 22px;
+}
+h4 {
+  font-family: Lora, serif;
+  color: #222;
+  font-size: 20px;
+}
+h5 {
+  font-family: PlayfairDisplay, serif;
+}
+h5,
+h6 {
+  color: #222;
+  font-size: 20px;
+  font-style: italic;
+}
+h6 {
+  font-family: Lora, serif;
+}
+a {
+  font-family: Montserrat-Bold, sans-serif;
+}
+p {
+  font-family: OpenSans, sans-serif;
+  color: #666;
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+}
