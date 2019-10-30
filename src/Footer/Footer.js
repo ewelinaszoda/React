@@ -5,8 +5,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__column">
-        <a href="" className="footer__logo">
-          <img src="/images/footer-logo.png" alt="logo_footer" />
+        <a href="/" className="footer__logo">
+          <img src={require("./footer-logo.png")} alt="logo_footer" />
         </a>
       </div>
       <div className="footer__column">
@@ -22,7 +22,7 @@ function Footer() {
         <h3>Quick Links</h3>
         <ul>
           <li>
-            <a className="link--grey" href="">
+            <a className="link--grey" href="/">
               Home
             </a>
           </li>
@@ -32,17 +32,17 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a className="link--grey" href="">
+            <a className="link--grey" href="/">
               Services
             </a>
           </li>
           <li>
-            <a className="link--grey" href="">
+            <a className="link--grey" href="/">
               Projects
             </a>
           </li>
           <li>
-            <a className="link--grey" href="">
+            <a className="link--grey" href="/">
               Get In Touch
             </a>
           </li>
@@ -55,7 +55,7 @@ function Footer() {
           <br />
           <br />
           <li>
-            <a className="link--yellow" href="">
+            <a className="link--yellow" href="/">
               Purchase now
             </a>
           </li>
